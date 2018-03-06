@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Created by abdoh.
+-->
+
+<resources>
+    <integer name="poster_width">185</integer>
+    <integer name="poster_height">280</integer>
+</resources>

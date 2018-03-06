@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Created by abdoh
+-->
+
+<resources>
+    <string name="app_name">Popular Movies Stage 1</string>
+
+    <string name="api_key">3539d2b0273475735eedc9e45fc9a8dd</string>
+
+    <string name="title_activity_movie_details">Movie Details</string>
+
+    <string name="release_date">Release Date:</string>
+
+    <string name="rating">TMDb Rating:</string>
+
+    <string name="no_release_date_found">No release date found</string>
+    <string name="no_summary_found">No summary was found</string>
+
+    <string name="parcel_movie">PARCEL_MOVIE</string>
+
+    <!-- Preference items -->
+    <string name="sort_method_key">SORT_METHOD</string>
+    <string name="top_rated_sorting_key">TOP_RATED_SORTING_KEY</string>
+    <string name="popular_sorting_key">POPULAR_SORTING_KEY</string>
+
+    <string name="popular_sorting">popular</string>
+    <string name="top_rated_sorting">top_rated</string>
+
+    <string name="description_movie_poster">Contains poster of movieInfo</string>
+
+    <string name="error_need_internet">Internet is needed in order for the posters to display.</string>
+    <string name="no_plot_found">No Plot Found</string>
+</resources>
