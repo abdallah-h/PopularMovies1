@@ -2,6 +2,8 @@ package com.abdoh.popularmovies1.Utilities;
 
 import android.net.Uri;
 
+import com.abdoh.popularmovies1.BuildConfig;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -18,13 +20,12 @@ public class NetworkUtils {
     public static URL buildUri(String[] parameters) throws MalformedURLException {
 
         final String BASE_URL = "http://api.themoviedb.org/3/movie";
-        final String API_KEY = "api_key";
-        // Type your own api key ......
-        final String API_KEY_VALUE = "";
+        final String API_KEY_VARIABLE = "api_key";
+        final String API_KEY_VALUE = BuildConfig.API_KEY;
 
         Uri builtUri = Uri.parse(BASE_URL).buildUpon()
                 .appendPath(parameters[0])
-                .appendQueryParameter(API_KEY, API_KEY_VALUE)
+                .appendQueryParameter(API_KEY_VARIABLE, API_KEY_VALUE)
                 .build();
 
         return new URL(builtUri.toString());
